@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srajan - Developer Portfolio</title>
+    <link rel="stylesheet" href="Styles/general.css" class="css" />
+    <link rel="stylesheet" href="Styles/main.css" class="css" />
+    <link rel="stylesheet" href="Styles/navbar.css" class="css" />
+    <!-- <link rel="stylesheet" href="Styles/magicCard.css" class="css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <nav class="nav-bar">
+            <div class="left-nav-section">
+                Srajan Chourasia
+            </div>
+            <div class="right-nav-section">
+                <ul class="nav-list">
+                    <li>
+                        <a href="/">
+                        Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                        Connect
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="right-first-section">
+                <div>
+                    Hi, My name is<span class="purple-text">Srajan</span>
+                    <div>
+                        and I am a passionate about 
+                    </div>
+                    <!-- Element to contain animated typing -->
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="left-first-section">
+                <div class="img-card">
+                    <img src="Images/images/SrajanChourasia.png" alt="Srajan Chourasia">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['AI/ML', 'Deep Learning', 'Reinforcement Learning', 'Computer Vision'],
+        typeSpeed: 60,
+        loop: true,
+        cursorChar: '_',
+        });
+    </script>
+  </body>
+</html>
