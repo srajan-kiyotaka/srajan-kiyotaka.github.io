@@ -48,3 +48,52 @@
 .purple-text {
     color: rgb(170, 110, 225);
 }
+
+.second-section-top {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.second-section h1 {
+    font-size: 3rem;
+}
+
+.text-gray {
+    color: gray;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.second-section-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+    padding: 0 140px;
+}
+
+.about-image-container {
+    width: 32%;
+}
+
+.about-image-container img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    object-position: center;
+    /* border-radius: 3px; */
+}
+
+.about-text-container {
+    width: 57%;
+}
+
+.about-text-container p {
+    font-size: 1.05rem;
+    /* line-height: 1.5; */
+    text-align: center;
+    margin-bottom: 14px;
+    color: rgb(160, 160, 160);
+}

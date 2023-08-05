@@ -8,3 +8,10 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+body hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 72px 90px;
+}
