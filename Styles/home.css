@@ -10,8 +10,43 @@
     /* max-height: 800px; */
 }
 
+.right-home-title {
+  margin-bottom: 48px;
+}
+
 .right-home-section {
     width: 50%;
+    /* padding-top: 90px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-home-connect-icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.connect-icon-card {
+  font-size: 2.5rem;
+  margin: 5px 24px;
+}
+
+.connect-icon-card i{
+  transition: all 0.16s ease-in-out;
+}
+
+.right-home-connect-icon-bar a{
+  text-decoration: none;
+  color: white;
+}
+
+.connect-icon-card:hover i{
+  color: rgb(160, 160, 230);
+  font-size: 2.8rem;
 }
 
 .left-home-section {

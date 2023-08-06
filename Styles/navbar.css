@@ -36,10 +36,11 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
-    transition: font-size 0.2s;
+    transition: font-size 0.2s ease-in-out;
 }
 
 .nav-list li a:hover {
     color: rgb(155, 155, 230);
     font-size: 1.56rem;
 }
+
