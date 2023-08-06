@@ -1,0 +1,77 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 160px;
+}
+
+.footer-body-container {
+    background-color: #0a0a12;
+    padding: 10px 80px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-body-title {
+    font-size: 1.8rem;
+}
+
+.bottom-text-gray {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.footer-end-container {
+    background-color: #14141e;
+    padding: 5px 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-connect-icon-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.icon-card {
+    height: 50px;
+    width: 50px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-card img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    background-color: aliceblue;
+}
+
+.icon-card i{
+    font-size: 2rem;
+    object-position: center;
+    object-fit: cover;
+}
+
+.footer-connect-icon-bar a,
+.footer-end-text a{
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s;
+}
+
+.icon-card:hover i{
+    font-size: 2.25rem;
+    color: gray;
+}
