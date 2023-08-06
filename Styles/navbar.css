@@ -4,6 +4,7 @@
     left: 0px;
     right: 0px;
     height: 90px;
+    z-index: 100;
 }
 
 .nav-bar {

@@ -1,18 +1,18 @@
 .exp-container {
-  height: 300px;
+  height: 590px;
   /* width: 600px; */
   display: flex;
-  padding: 60px 100px;
-  margin: 100px 0;
+  padding: 0px 90px;
+  margin: 50px 0;
 }
 
 .exp-card {
   display: flex;
-  height: 360px;
-  width: 300px;
-  background-color: #17141d;
+  height: 580px;
+  width: 420px;
+  background-color: #1c1823;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.7);
 /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
@@ -34,20 +34,21 @@
   transition: 0.4s ease-out;
 }
 
-.title {
+.exp-title {
   color: white;
-  font-weight: 300;
+  font-weight: 500;
   position: absolute;
   left: 20px;
   top: 15px;
+  font-size: 1.7rem;
 }
 
 .bar {
   position: absolute;
-  top: 100px;
+  top: 105px;
   left: 20px;
   height: 5px;
-  width: 150px;
+  width: 240px;
 }
 
 .emptybar {
@@ -68,6 +69,29 @@
 }
 
 .exp-card:hover .filledbar {
-  width: 120px;
+  width: 200px;
   transition: 0.4s ease-out;
+}
+
+.exp-card-text{
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  right: 20px;
+  /* padding-top: 120px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px; */
+  font-size: 1.05rem;
+}
+
+.exp-card-text ul{
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 20px;
+  /* padding: 5px 20px; */
+}
+
+.exp-card-text ul li{
+  padding: 5px 0px;
 }
