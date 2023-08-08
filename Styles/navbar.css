@@ -44,3 +44,24 @@
     font-size: 1.56rem;
 }
 
+.left-nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-img-container img {
+    width: 64px;
+    /* height: 50px; */
+    /* border-radius: 50%;
+    border: 2px solid white; */
+    margin-right: 20px;
+}
