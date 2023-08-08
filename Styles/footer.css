@@ -88,6 +88,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 64px;
+    margin-right: 24px;
 }
 
 .footer-img-container img {
@@ -95,5 +97,4 @@
     /* height: 50px; */
     /* border-radius: 50%; */
     /* border: 2px solid white; */
-    margin-right: 20px;
 }
