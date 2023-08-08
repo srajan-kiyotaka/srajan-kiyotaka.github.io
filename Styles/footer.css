@@ -75,3 +75,25 @@
     font-size: 2.25rem;
     color: gray;
 }
+
+.footer-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-container img {
+    width: 60px;
+    /* height: 50px; */
+    /* border-radius: 50%; */
+    /* border: 2px solid white; */
+    margin-right: 20px;
+}
