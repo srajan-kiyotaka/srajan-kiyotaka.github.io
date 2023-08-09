@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* Global CSS Transitions */
+    transition: all 0.24s ease; /* Apply transition to all elements with 0.3s duration and ease timing function */
 }
 
 html {

@@ -84,3 +84,46 @@
   text-decoration: none;
   color: #e81cff;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .project-card {
+    width: 285px;
+    height: 440px;
+    padding: 18px;
+    gap: 10px;
+    border-radius: 7px;
+  }
+  
+  .project-card::before {
+    width: 350px;
+    height: 490px;
+    border-radius: 9px;
+  }
+  
+  .project-heading {
+    font-size: 1.56rem;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+  }
+  
+  .project-card-github,
+  .project-card-demo {
+    color: #e81cff;
+    font-weight: 600;
+    font-size: 1.22rem;
+    transition: all 0.25s ease-in-out;
+    margin-right: 16px;
+  }
+  
+  .project-card-github:hover,
+  .project-card-demo:hover {
+    color: #989499;
+    /* font-weight: 600; */
+    font-size: 1.29rem;
+    /* transition: font-size 0.2s ease-in-out; */
+  } 
+}

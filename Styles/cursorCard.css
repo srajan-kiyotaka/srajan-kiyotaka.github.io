@@ -2,7 +2,7 @@
   height: 590px;
   /* width: 600px; */
   display: flex;
-  padding: 0px 90px;
+  padding: 0px 30px;
   margin: 50px 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .exp-card:hover {
-  transform: translateY(-20px);
+  transform: translateY(-30px);
   transition: 0.4s ease-out;
 }
 
@@ -65,7 +65,7 @@
   height: 100%;
   background: rgb(0,154,217);
   background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
-  transition: 0.6s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .exp-card:hover .filledbar {
@@ -94,4 +94,106 @@
 
 .exp-card-text ul li{
   padding: 5px 0px;
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {  
+  .exp-container {
+    height: 600px;
+    padding: 0px 64px;
+    margin: 50px 0;
+  }
+
+  .exp-card {
+    height: 600px;
+    width: 380px;
+  }
+  
+  .exp-card:not(:first-child) {
+      margin-left: -85px;
+  }
+  
+  .exp-card:hover {
+    transform: translateY(-36px);
+  }
+  
+  .exp-card:hover ~ .exp-card {
+    left: 64px;
+  }
+  
+  .exp-title {
+    top: 14px;
+    left: 18px; 
+    font-size: 1.55rem;
+  }
+  
+  .bar {
+    top: 96px;
+    width: 220px;
+  }
+  
+  .exp-card:hover .filledbar {
+    width: 160px;
+  }
+  
+  .exp-card-text{
+    top: 100px;
+    left: 20px;
+    right: 16px;
+    font-size: .95rem;
+  }
+  
+  .exp-card-text ul li{
+    padding: 4px 0px;
+  } 
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .exp-container {
+    height: 600px;
+    padding: 0px;
+    margin: 60px 0;
+  }
+  
+  .exp-card {
+    height: 600px;
+    width: 350px;
+  }
+  
+  .exp-card:not(:first-child) {
+      margin-left: -90px;
+  }
+  
+  .exp-card:hover {
+    transform: translateY(-45px);
+  }
+  
+  .exp-card:hover ~ .exp-card {
+    left: 70px;
+  }
+  
+  .exp-title {
+    top: 13px;
+    font-size: 1.4rem;
+  }
+  
+  .bar {
+    top: 90px;
+    width: 200px;
+  }
+  
+  .exp-card:hover .filledbar {
+    width: 160px;
+  }
+  
+  .exp-card-text{
+    top: 100px;
+    left: 20px;
+    right: 16px;
+    font-size: .92rem;
+  }
+  
+  .exp-card-text ul li{
+    padding: 3px 0px;
+  } 
 }
