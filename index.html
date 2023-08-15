@@ -12,6 +12,9 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Animation Loader Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+  <link rel="stylesheet" href="Styles/loader-animation.css">
   <link rel="stylesheet" href="Styles/general.css" class="css" />
   <link rel="stylesheet" href="Styles/main.css" class="css" />
   <link rel="stylesheet" href="Styles/navbar.css" class="css" />
@@ -22,6 +25,10 @@
 </head>
 
 <body>
+  <!-- Loading Animation -->
+  <div id="loading-container">
+    <!-- loading animation goes here -->
+  </div>
   <!-- Head Section -->
   <header>
     <div class="nav-container">
@@ -470,7 +477,10 @@
       </div>
     </div>
   </footer>
-   <!-- Load library from the CDN -->
+</body>
+  <!-- Animation Loader -->
+  <script src="JavaScript/animation.js"></script>
+  <!-- Load library from the CDN -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
   </script>
   <!-- Setup and start animation! -->
@@ -479,6 +489,4 @@
   <script src="JavaScript/scroll.js"></script>
   <!-- Section Scroll Url Update -->
   <script src="JavaScript/section-url-update.js"></script>
-</body>
-
 </html>
