@@ -32,7 +32,7 @@ var animationData = {
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "Images/animations/animation_cube_2.json" // Replace with animation's JSON path
+  path: "Images/animations/animation_cube.json" // Replace with animation's JSON path
 };
 
 var anim = bodymovin.loadAnimation(animationData);
@@ -42,6 +42,8 @@ window.addEventListener("load", function() {
     if(reloaded) {
         // Remove the "animationShown" flag from localStorage
         localStorage.removeItem("animationShown");
+        // Remove the "resumeAnimationShown" flag from localStorage
+        localStorage.removeItem("resumeAnimationShown");
     }
 
   // Check if the animation has been shown before

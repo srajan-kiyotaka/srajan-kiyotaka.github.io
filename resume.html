@@ -11,12 +11,20 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Animation Loader Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+    <link rel="stylesheet" href="Styles/loader-animation.css">
     <link rel="stylesheet" href="Styles/general.css" class="css" />
     <link rel="stylesheet" href="Styles/navbar.css" class="css" />
     <link rel="stylesheet" href="Styles/resume.css" class="css" />
     <link rel="stylesheet" href="Styles/resume-footer.css" class="css">
+
 </head>
 <body>
+    <!-- Loading Animation -->
+    <div id="loading-container">
+      <!-- loading animation goes here -->
+    </div>
     <!-- Head Section -->
     <header>
       <div class="nav-container">
@@ -126,9 +134,12 @@
       </div>
     </footer>
 </body>
+  <!-- Animation Loader -->
+  <script src="JavaScript/resume-animation.js"></script>
   <!-- Smooth Scroll -->
   <script src="JavaScript/section-scroll.js">
   </script>
   <!-- Section Scroll Url Update -->
   <script src="JavaScript/section-url-update.js"></script>
+
 </html>
