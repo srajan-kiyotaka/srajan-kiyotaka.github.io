@@ -97,7 +97,9 @@
 
 @media (min-width: 1000px) and (max-width: 1274px){
     * {
-        transition: all 0.2s ease-in-out;
+        transition: font-size 0.2s ease-in-out;
+        transition: height 0.2s ease-in-out;
+        transition: width 0.2s ease-in-out;
       } 
 
     .nav-container {
